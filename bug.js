@@ -1,0 +1,1 @@
+This error occurs when using AsyncStorage in React Native. The issue is that AsyncStorage is asynchronous, so you need to handle the promise it returns.  The code below attempts to access the data immediately after setting it, without awaiting the asynchronous operation.
